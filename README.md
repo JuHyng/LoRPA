@@ -1,6 +1,4 @@
-# Lottery Rank Pruning Adaptation
-
-[Paper Link](https://www.mdpi.com/2227-7390/12/23/3744)
+# [Lottery Rank Pruning Adaptation](https://www.mdpi.com/2227-7390/12/23/3744)
 
 ## Abstract
 
