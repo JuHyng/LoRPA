@@ -11,8 +11,6 @@ max_seq_length=128
 
 prune_method="magnitude"
 prune_strategy="top-k"
-# prune_strategy="none"
-# prune_method="random"
 
 for r in 256
 do

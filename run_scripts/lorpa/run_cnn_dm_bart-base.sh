@@ -7,7 +7,7 @@ seed=$1
 bs=64
 epoch=25
 
-prune_method="random"
+prune_method="magnitude"
 prune_strategy="top-k"
 
 for r in 256

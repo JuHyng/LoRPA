@@ -2,10 +2,6 @@ export TASK_NAME=glue
 export DATASET_NAME=mrpc
 export PEFT_TYPE=lorpa
 
-export LARGE_MNLI_TIMESTAMP_8="seed_63/20240816-054543/"
-export LARGE_MNLI_TIMESTAMP_128="seed_63/20240728-050804/"
-export LARGE_MNLI_TIMESTAMP_256="/seed_63/20240725-141453/"
-
 bs=4
 epoch=20
 
@@ -13,10 +9,8 @@ seed=$1
 
 max_seq_length=512
 
-# prune_method="magnitude"
-# prune_strategy="top-k"
-prune_method="random"
-prune_strategy="none"
+prune_method="magnitude"
+prune_strategy="top-k"
 
 for r in 256
 do
@@ -53,7 +47,6 @@ do
         --prune_strategy $prune_strategy \
         --prune_method $prune_method \
         --weight_decay 0.1
-        # --adapter_path checkpoints/lora/$TASK_NAME/mnli-roberta-large/r_$r/$LARGE_MNLI_TIMESTAMP_256
 done
 done
 done

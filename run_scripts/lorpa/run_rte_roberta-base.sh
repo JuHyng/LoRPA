@@ -2,10 +2,6 @@ export TASK_NAME=glue
 export DATASET_NAME=rte
 export PEFT_TYPE=lorpa
 
-export MNLI_TIMESTAMP_8=""
-export BASE_MNLI_CHECKPOINT_128="seed_42/20240614-110748/"
-export BASE_MNLI_CHECKPOINT_256="seed_63/20240730-143910/"
-
 bs=32
 epoch=80
 
@@ -50,9 +46,7 @@ do
         --prune_ratio $prune_ratio \
         --prune_strategy $prune_strategy \
         --prune_method $prune_method \
-        --weight_decay 0.1 \
-        --adapter_path checkpoints/lora/$TASK_NAME/mnli-roberta-base/r_$r/$BASE_MNLI_CHECKPOINT_256
-
+        --weight_decay 0.1
 done
 done
 done

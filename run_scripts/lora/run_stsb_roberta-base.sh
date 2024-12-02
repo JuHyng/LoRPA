@@ -2,10 +2,6 @@ export TASK_NAME=glue
 export DATASET_NAME=stsb
 export PEFT_TYPE=lora
 
-export BASE_MNLI_CHECKPOINT_8="seed_42/20240809-202354"
-export BASE_MNLI_CHECKPOINT_128="seed_42/20240614-110748/"
-export BASE_MNLI_CHECKPOINT_256="seed_63/20240730-143910/"
-
 seed=$1
 
 bs=16
@@ -41,6 +37,5 @@ do
         --metric_for_best_model pearson \
         --warmup_ratio 0.06 \
         --weight_decay 0.1 \
-        # --adapter_path checkpoints/lora/$TASK_NAME/mnli-roberta-base/r_$r/$BASE_MNLI_CHECKPOINT_256
 
 done

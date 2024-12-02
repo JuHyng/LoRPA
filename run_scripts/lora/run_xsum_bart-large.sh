@@ -6,7 +6,6 @@ seed=$1
 
 bs=32
 epoch=25
-# 이전꺼 15로 돌린거있음
 
 for r in 16
 do

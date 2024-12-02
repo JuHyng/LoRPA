@@ -10,9 +10,6 @@ epoch=30
 
 max_seq_length=512
 
-# bs = 16 일때 128 256에서 학습 제대로 안됨
-# bs = 32, lr=7e-4로 128에서 해보기로
-
 for r in 8
 do
     timestamp=$(date "+%Y%m%d-%H%M%S")
