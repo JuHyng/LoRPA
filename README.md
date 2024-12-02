@@ -6,10 +6,21 @@ Recent studies on parameter-efficient fine-tuning (PEFT) have introduced effecti
 
 ![figure1](https://github.com/user-attachments/assets/0dd907a4-d724-4f57-a0ae-f866a294f4cd)
 
-### Process of Magnitude Pruning
+## Process of Magnitude Pruning
 
 ![image](https://github.com/user-attachments/assets/7e1b322e-4e9e-418a-9149-d2292b94e026)
 
 Process of magnitude-based pruning. (a) Load rank matrices A, B trained from initial training. (b) Calculate the importance score S for each rank based on magnitude by the absolute value of the product. (c) Sort scores in ascending order and select the bottom p\% ranks to prune. (d) Concatenate ranks that are not within prune indices to obtain pruned rank matrices.
 
-Setup and examples will be uploaded soon !
+## Setup
+
+### Install Dependencies
+
+Install all the required Python packages listed in the `requirements.txt` file:
+
+```
+pip install -r requirements.txt
+
+```
+
+
