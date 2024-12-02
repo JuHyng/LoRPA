@@ -9,10 +9,8 @@ seed=$1
 
 max_seq_length=512
 
-# prune_method="magnitude"
-# prune_strategy="top-k"
-prune_method="random"
-prune_strategy="none"
+prune_method="magnitude"
+prune_strategy="top-k"
 
 for r in 256
 do
@@ -20,7 +18,7 @@ for prune_steps_ratio in "0.2_0.8"
 do
 for prune_ratio in "0.0_0.96875"
 do
-for lr in 1e-4 2e-4 3e-4 5e-4 6e-4
+for lr in 4e-4
 do
     python run.py \
         --model_name_or_path roberta-base \

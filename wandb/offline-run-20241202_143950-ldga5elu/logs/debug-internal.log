@@ -1,0 +1,15 @@
+{"time":"2024-12-02T14:39:50.209168406+09:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-12-02T14:39:50.209179719+09:00","level":"INFO","msg":"created symlink","path":"/media/nlplab/hdd1/juhyng/LoRPA/wandb/offline-run-20241202_143950-ldga5elu/logs/debug-core.log"}
+{"time":"2024-12-02T14:39:50.32138324+09:00","level":"INFO","msg":"created new stream","id":"ldga5elu"}
+{"time":"2024-12-02T14:39:50.321438025+09:00","level":"INFO","msg":"stream: started","id":"ldga5elu"}
+{"time":"2024-12-02T14:39:50.321560148+09:00","level":"INFO","msg":"writer: Do: started","stream_id":"ldga5elu"}
+{"time":"2024-12-02T14:39:50.321614276+09:00","level":"INFO","msg":"handler: started","stream_id":"ldga5elu"}
+{"time":"2024-12-02T14:39:50.321693389+09:00","level":"INFO","msg":"sender: started","stream_id":"ldga5elu"}
+{"time":"2024-12-02T14:39:50.331520039+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-02T14:40:02.877594954+09:00","level":"INFO","msg":"stream: closing","id":"ldga5elu"}
+{"time":"2024-12-02T14:40:02.877618384+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-02T14:40:02.878056237+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-02T14:40:02.87812589+09:00","level":"INFO","msg":"handler: closed","stream_id":"ldga5elu"}
+{"time":"2024-12-02T14:40:02.878129948+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ldga5elu"}
+{"time":"2024-12-02T14:40:02.878132379+09:00","level":"INFO","msg":"sender: closed","stream_id":"ldga5elu"}
+{"time":"2024-12-02T14:40:02.878156514+09:00","level":"INFO","msg":"stream: closed","id":"ldga5elu"}

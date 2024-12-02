@@ -1,0 +1,14 @@
+2024-12-02 14:39:50,398 INFO    MainThread:3141666 [wandb_setup.py:_flush():79] Current SDK version is 0.18.7
+2024-12-02 14:39:50,398 INFO    MainThread:3141666 [wandb_setup.py:_flush():79] Configure stats pid to 3141666
+2024-12-02 14:39:50,398 INFO    MainThread:3141666 [wandb_setup.py:_flush():79] Loading settings from /home/nlplab/.config/wandb/settings
+2024-12-02 14:39:50,398 INFO    MainThread:3141666 [wandb_setup.py:_flush():79] Loading settings from /media/nlplab/hdd1/juhyng/LoRPA/wandb/settings
+2024-12-02 14:39:50,398 INFO    MainThread:3141666 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'disabled': 'true'}
+2024-12-02 14:39:50,398 INFO    MainThread:3141666 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-12-02 14:39:50,398 INFO    MainThread:3141666 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'run.py', 'program_abspath': '/media/nlplab/hdd1/juhyng/LoRPA/run.py', 'program': '/media/nlplab/hdd1/juhyng/LoRPA/run.py'}
+2024-12-02 14:39:50,398 INFO    MainThread:3141666 [wandb_init.py:_log_setup():533] Logging user logs to /media/nlplab/hdd1/juhyng/LoRPA/wandb/offline-run-20241202_143950-06x3orkd/logs/debug.log
+2024-12-02 14:39:50,398 INFO    MainThread:3141666 [wandb_init.py:_log_setup():534] Logging internal logs to /media/nlplab/hdd1/juhyng/LoRPA/wandb/offline-run-20241202_143950-06x3orkd/logs/debug-internal.log
+2024-12-02 14:39:50,398 INFO    MainThread:3141666 [wandb_init.py:init():619] calling init triggers
+2024-12-02 14:39:50,398 INFO    MainThread:3141666 [wandb_init.py:init():626] wandb.init called with sweep_config: {}
+config: {}
+2024-12-02 14:39:50,398 INFO    MainThread:3141666 [wandb_init.py:init():664] wandb.init() called when a run is still active
+2024-12-02 14:40:02,877 WARNING MsgRouterThr:3141666 [router.py:message_loop():75] message_loop has been closed
